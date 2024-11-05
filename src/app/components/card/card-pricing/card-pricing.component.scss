@@ -1,0 +1,34 @@
+.card-pricing__container{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 80px;
+  padding: 8px;
+  background-color: rgba($color: #000000, $alpha: .8);
+  color: antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  .card-pricing__title{
+    margin-bottom: 4px;
+  }
+
+  .card-pricing__value{
+    display: flex;
+    justify-content: space-between;
+
+    .card-pricing__value__console{
+      display: flex;
+
+      span{
+        font-weight: bolder;
+        color: aqua;
+        margin-right: 8px;
+      }
+    }
+  }
+}
